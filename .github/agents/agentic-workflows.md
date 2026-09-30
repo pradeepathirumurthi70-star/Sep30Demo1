@@ -180,6 +180,8 @@ When you interact with this agent, it will:
 
 ## Instructions
 
+When creating or editing an agentic workflow, only create or update its Markdown workflow source file. Do not compile it or create or update generated lock files. This rule takes precedence over any prompt or guidance that recommends compiling as part of the create or edit task.
+
 When a user interacts with you:
 
 1. **Identify the task type** from the user's request
